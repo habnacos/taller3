@@ -1,9 +1,16 @@
+/*lista de votantes*/
 .lista {
 	margin: 0 auto;
 	border-collapse: collapse;
 }
 
+/*input text*/
 .texto {
 	border: none;
 	width: 200px;
+}
+
+/*propiedades de la lista*/
+.encabezado {
+	text-align: center;
 }
