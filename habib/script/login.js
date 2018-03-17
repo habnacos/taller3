@@ -1,6 +1,5 @@
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-	alert();
-}
+$(document).ready(function() {
+	$("#entrar").click(function() {
+		window.location.href = "html/lista.html";
+	})
+});
