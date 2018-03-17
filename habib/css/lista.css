@@ -5,8 +5,11 @@
 	clear:both;
 	border-collapse:separate;
 	border-spacing:0;
-    border: 2px solid black;
+    border: 1px solid #635F5F;
     text-align: center;
+}
+td,tr{
+	border: 0.1px solid #635F5F;
 }
 
 /*input text*/
@@ -18,10 +21,11 @@
 /*propiedades de la lista*/
 .encabezado {
 	text-align: center;
-	background-color: gray;
+	background-color: #C2BEBD;
+
 }
 
-#vt, input[type=]{
+#vt{
 	width:3%;
 }
 #liveclock{
@@ -29,11 +33,49 @@
 	left:0;
 	top:0;
 }
-#search_input{
-	position:absolute;
-	right: 0;
-	top:0;
+#searchform {
+    width: 280px;
+    height:30px;
+    padding: 8px;
+    margin:50px auto;
+    background: #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 2px 0 rgba(255,255,255,.5);
 }
+#searchform input {
+    width: 190px;
+    height:30px;
+    padding: 10px;
+    float: left;
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset;
+}
+#searchform button {
+    position: relative;
+    float: right;
+    border: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    font-size:15px;
+    color: #fff;
+    background: #438cdb;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+} 
+#searchform button:before{
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #438cdb transparent;
+    top: 8px;
+    left: -5px;
+}
+
+
 input[type=text]{
 	width: 100%;
     margin: 0 auto;
