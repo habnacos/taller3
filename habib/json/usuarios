@@ -1,0 +1,14 @@
+"usuarios":[
+	{
+		"nombre":"habib",
+		"apellidos": ["navarro", "acosta"]
+		"cedula":"0000000000",
+		"isJurado":false
+	},	
+	{
+		"nombre":"qwerty",
+		"apellidos": ["sd", "dfs"]
+		"cedula":"0000000001",
+		"isJurado":true
+	}
+]
