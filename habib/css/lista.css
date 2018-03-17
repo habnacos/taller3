@@ -1,7 +1,12 @@
 /*lista de votantes*/
 .lista {
-	margin: 0 auto;
-	border-collapse: collapse;
+	width:80%;
+	margin:0 auto;
+	clear:both;
+	border-collapse:separate;
+	border-spacing:0;
+    border: 2px solid black;
+    text-align: center;
 }
 
 /*input text*/
@@ -13,4 +18,26 @@
 /*propiedades de la lista*/
 .encabezado {
 	text-align: center;
+	background-color: gray;
 }
+
+#vt, input[type=]{
+	width:3%;
+}
+#liveclock{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#search_input{
+	position:absolute;
+	right: 0;
+	top:0;
+}
+input[type=text]{
+	width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+ }
