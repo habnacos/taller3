@@ -1,0 +1,9 @@
+.lista {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.texto {
+	border: none;
+	width: 200px;
+}
