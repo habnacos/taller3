@@ -1,10 +1,7 @@
-var obtJson;
-
 
 $.getJSON("../json/usuarios.json", function( data ) {
-    obtJson = data.usuarios;
-    console.log(obtJson);
-})
+    var obtJson = t;
+});
 
 $(document).ready(function () {
     //$.getJSON("../json/usuarios.json", function( data ) {

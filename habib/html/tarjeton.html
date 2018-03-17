@@ -1,0 +1,33 @@
+<!-- Desarrollado por HABIB NAVARRO ACOSTA -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarjeton para el senado</title>
+    <link rel="stylesheet" href="../css/tarjeton.css">
+	<script src="../script/tarjeton.js"></script>
+</head>
+<body>
+	<form id="tarjeton">		
+		<div class="diseño_vertical">
+			<b>PARTE A</b>
+		</div>
+			<section>
+				<div class="diseño_numero">1</div>
+				<font class="diseño_opcion">Marque aquí la casilla para <b>votar por el Partido, Movimiento político o Grupo Significativo.</b><br></font>
+			</section>
+			<div id="partidos">
+				<script>crear_partidos();</script>
+			</div>
+			<section>
+				<div class="diseño_numero">2</div>
+				<font class="diseño_opcion">Despues de marcar el Partido, Movimiento Político o Grupo Significativo, <b>marque aqui el número del candidato </b> de su preferencia para listas con voto preferente.<br></font>
+			</section>
+			<div id="candidatos">
+				<script>crear_candidatos();</script>
+			</div>
+		<button class="votar" type="button" onclick="confirmar()">VOTAR</button>
+		<button class="cancelar" type="button" onclick="cancelar()">CANCELAR</button>
+	</form>
+</body>
+</html>		
