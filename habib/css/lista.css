@@ -1,3 +1,8 @@
+body {
+  background-image:url(../image/grey.jpg);
+  background-size: 25px 50px;
+  background-size: 50% 50%;  
+}
 /*lista de votantes*/
 .lista {
 	width:80%;
@@ -7,6 +12,7 @@
 	border-spacing:0;
     border: 1px solid #635F5F;
     text-align: center;
+    background-color: white;
 }
 td,tr{
 	border: 0.1px solid #635F5F;
