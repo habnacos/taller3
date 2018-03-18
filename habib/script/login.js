@@ -15,6 +15,7 @@ $(document).ready(function() {
 				break;
 			}
 		}
-		if (sw) alert("Cédula no registrada.");
+		if (sw) 
+		alertify.alert("Cédula no registrada.");
 	});
 });

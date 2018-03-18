@@ -10,7 +10,6 @@ var obtJson = '[{"cedula":"1082929730","isJurado":false},{"cedula":"1082929731",
     '"isJurado":false},{"cedula":"1082929761","isJurado":false},{"cedula":"1082929762","isJurado":false},{"cedula":"1082929763","isJurado":false}]';
 
 
-
 $(document).ready(function () {
     //$.getJSON("../json/usuarios.json", function( data ) {
     	var count = 1;
@@ -76,3 +75,4 @@ function show5(){
 	setTimeout("show5()",1000)
 }
 window.onload=show5
+
